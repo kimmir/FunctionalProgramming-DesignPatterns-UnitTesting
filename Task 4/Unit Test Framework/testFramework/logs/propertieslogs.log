@@ -1,0 +1,26 @@
+[ERROR] 2021-04-01 17:00:28.204 [main] UnitFramework - notTestCompare(): Method Prefix Error
+[ERROR] 2021-04-01 17:00:28.206 [main] UnitFramework - Something went wrong... : testMethod() : InvocationTargetException
+[ERROR] 2021-04-01 17:00:28.206 [main] UnitFramework - testParameters():  Method parameter error. Unit test methods cannot have parameters
+[INFO ] 2021-04-01 17:00:28.206 [main] UnitFramework - testCompareFloats(): 1.0 == 1.0 : Passed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.206 [main] UnitFramework - testCompareFloats(): 2.0 != 1.0 : Passed - Floats are not equal
+[INFO ] 2021-04-01 17:00:28.206 [main] UnitFramework - testCompareFloats(): 10.0 == 25.0 : Failed - Floats are not equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testCompareStrings(): Hello == Hello : Passed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testCompareStrings(): hello != hello : Failed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testPrivateMethod(): 2.0 == 2.0 : Passed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): 10.0 == 10.0 : Passed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): 10.0 != 10.0 : Failed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): 25.0 == 25.0 : Passed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): 25.0 != 25.0 : Failed - Floats are equal
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): string1 == string1 : Passed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.207 [main] UnitFramework - testConstructorAndAccess(): string1 != string1 : Failed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - testConstructorAndAccess(): string2 == string2 : Passed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - testConstructorAndAccess(): string2 != string2 : Failed - Strings are identical
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - ----------------------------------------------
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of unit test methods attempted:7
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of unit test methods completed: 4
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of unit test method errors: 2
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - ----------------------------------------------
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of individual checks attempted: 14
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of individual checks completed: 11
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of individual checks successful: 8
+[INFO ] 2021-04-01 17:00:28.208 [main] UnitFramework - Number of individual checks failed: 6
